@@ -1,0 +1,28 @@
+Friend function in C++
+->In C++ friend function is a facility which allow us to access the private and protected data 
+   members of a class outside the class definition
+
+   the are some rule/features of a friend function
+
+1)a friend function is declared inside the class but it is defined outside it.
+
+2)the syntax for declaring a friend function is given by:
+
+     friend      data_type    function_name(argument)
+
+3)a friend function takes one argument which is the object of same class to which it is 
+print.
+
+4)a friend function can be declared in any section of a class without affecting its meaning
+
+5)A friend function is not a member of a class hence it cannot be called with object
+
+6)A friend function can be called like a normal member function.
+
+
+
+
+Q1write a program to find greatest of three numbers using classes and friend function.
+
+It is possible to have empty to have empty classes
+ 
